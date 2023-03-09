@@ -1,3 +1,5 @@
 # nodePackages
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/node-awmlfv)
+- nodemon
+- cross-env
+- dotenv

@@ -1,3 +1,3 @@
 const dependency = require('./dependency.js');
 
-console.log(dependency.name);
+console.log(process.argv); //接收命令行参数
