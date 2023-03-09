@@ -3,3 +3,4 @@
 - nodemon
 - cross-env
 - dotenv
+- concurrently

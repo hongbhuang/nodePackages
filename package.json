@@ -2,9 +2,13 @@
   "name": "node-starter",
   "version": "0.0.0",
   "scripts": {
-    "dotenv": "cross-env NODE_ENV=development node ./dotenv/index.js"
+    "dotenv": "cross-env NODE_ENV=development node ./dotenv/index.js",
+    "concurrently": "concurrently npm:startA npm:startB --kill-others",
+    "startA": "node ./concurrently/a.js",
+    "startB": "node ./concurrently/b.js"
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.3",
     "nodemon": "^2.0.21"
